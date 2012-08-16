@@ -1,0 +1,15 @@
+ActsAsActiveable
+================
+
+Simple activation plugin.
+
+
+Example
+=======
+
+class User < ActiveRecord:: Base
+  acts_as_activatable
+end
+
+
+Copyright (c) 2012 Caleb Adam Haye of Presskit Platform & Fire, Inc., released under the MIT license
