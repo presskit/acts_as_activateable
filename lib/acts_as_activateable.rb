@@ -65,8 +65,8 @@ module ActsAsActivateable
   module ActsAsActivateableInstanceMethods
     def enable
       # send(:active, false)
-      puts "@configuration: #{@configuration}"
-      puts "enabled_column: #{enabled_column}"
+      # puts "@configuration: #{@configuration}"
+      # puts "enabled_column: #{enabled_column}"
       self.send("#{enabled_column}=", true); save
     end
     
